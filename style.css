@@ -3,7 +3,7 @@
   display: flex;
 }
 .di .flexbox-item {
-  width: 200px;
+  width: 100px;
   margin: 10px;
   border: 3px solid #333;
   background-color: blue;
@@ -30,21 +30,23 @@ img {
 }
 h4 {
   float: center;
-  font-weight: 100px;
+  font-weight: 200px;
 }
 h2 {
-  float: left;
+  float: right;
 }
 .skills-list {
-  float: left;
+  float: center;
   font-weight: bold;
 }
 .skills {
-  text-align: center;
+  text-align: left;
+  font-size: larger;
 }
 body {
   /* background-size: 150px; */
   background-color: lightblue;
+  background-size: 200px;
 }
 div {
   background-color: orange;
