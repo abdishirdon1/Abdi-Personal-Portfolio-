@@ -1,77 +1,55 @@
-.flexbox-container {
-  justify-content: space-around;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation {
+  border: 1px solid black;
+  background: rgb(160, 160, 197);
+  overflow: auto;
+  padding: 5px;
+}
+
+.nav-items {
+  /*  */
   display: flex;
-}
-.di .flexbox-item {
-  width: 100px;
-  margin: 10px;
-  border: 3px solid #333;
-  background-color: blue;
-}
-.flexbox-item-1 {
-  min-height: 100px;
-}
-.flexbox-item-2 {
-  min-height: 100px;
-}
-.flexbox-item-3 {
-  min-height: 100px;
+  justify-content: flex-end;
+  padding: 0;
 }
 
-/* .about {
-  height: 1000px;
-} */
-
-img {
-  width: 260px;
-  border-radius: 140px;
-  float: left;
-  margin-right: 10px;
-}
-h4 {
-  float: center;
-  font-weight: 200px;
-}
-h2 {
-  float: right;
-}
-.skills-list {
-  float: center;
-  font-weight: bold;
-}
-.skills {
-  text-align: left;
-  font-size: larger;
-}
-body {
-  /* background-size: 150px; */
-  background-color: lightblue;
-  background-size: 200px;
-}
-div {
-  background-color: orange;
-}
-
-div.first {
-  opacity: 0.1;
-}
-
-div.second {
-  opacity: 0.3;
-}
-
-div.third {
-  opacity: 0.6;
-}
 h1 {
-  margin-right: 200px;
+  color: rgb(32, 32, 112);
 }
-.github {
-  font-weight: bold;
+.nav-items ul li {
+  display: inline-block;
+  margin: 0 5px 0 5px;
 }
-.email {
-  font-weight: bold;
+.nav-items ul li a {
+  color: #ffffff;
 }
-.linkedIn {
-  font-weight: bold;
+.nav-items ul li a:hover {
+  color: blue;
+}
+.coffeeImage {
+  width: 60%;
+  text-align: center;
+}
+.coffee-div {
+  display: flex;
+  justify-content: center;
+}
+.text-box p {
+  float: left;
+  background-color: lightgrey;
+  width: 300px;
+  border: 10px solid rgba(13, 12, 40, 0);
+  padding: 50px;
+  margin: 20px;
+  height: 88vh;
+}
+
+img{
+  width: 20%;
+  height: auto;
+  margin: 5px 40%; 
 }
